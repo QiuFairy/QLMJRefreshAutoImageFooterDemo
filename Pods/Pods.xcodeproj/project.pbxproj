@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -90,7 +90,7 @@
 		25DADF702AE01CE7E562E869B1348AA8 /* Pods-QLMJRefreshAutoImageFooterDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLMJRefreshAutoImageFooterDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		282CF58A02C5D89301841FC2A64641D6 /* Pods-QLMJRefreshAutoImageFooterDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLMJRefreshAutoImageFooterDemoTests-dummy.m"; sourceTree = "<group>"; };
 		2895932882AFAFB0A3A071B1F6312E43 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
-		2A30B09F535A4E446380398286F2AB58 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A30B09F535A4E446380398286F2AB58 /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AAAE36A8BF4CFA6DE58E9A37A87316E /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
 		37EBEB49703B801EA197E0FF13FA55F7 /* Pods-QLMJRefreshAutoImageFooterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLMJRefreshAutoImageFooterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39ADE4AD3702EB99BBBF801043D868E3 /* Pods-QLMJRefreshAutoImageFooterDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLMJRefreshAutoImageFooterDemoTests-resources.sh"; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		4F857CD7FFEE0902E85D925FDBBAA698 /* MJRefreshConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConfig.h; path = MJRefresh/MJRefreshConfig.h; sourceTree = "<group>"; };
 		4FD62F333BA2E831B9F90782CAB11950 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
 		5200F9E6B24DCD4FCB4A5F87CF3F2699 /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
-		5237D176F8D231185BD55B0E0DB99AB7 /* libPods-QLMJRefreshAutoImageFooterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLMJRefreshAutoImageFooterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5237D176F8D231185BD55B0E0DB99AB7 /* libPods-QLMJRefreshAutoImageFooterDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QLMJRefreshAutoImageFooterDemo.a"; path = "libPods-QLMJRefreshAutoImageFooterDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AC4948A2C0835671FE08CA0A3B7035 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
 		588ABC4741977D7C429F028A94DB7910 /* Pods-QLMJRefreshAutoImageFooterDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLMJRefreshAutoImageFooterDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5C747D9C347474999EC264CD097B4D0A /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		89EACD24C0295B1687688542744C04F3 /* Pods-QLMJRefreshAutoImageFooterDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLMJRefreshAutoImageFooterDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B12AE13B88FE3F460B225CB1169B040 /* Pods-QLMJRefreshAutoImageFooterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLMJRefreshAutoImageFooterDemo-frameworks.sh"; sourceTree = "<group>"; };
 		8E30ECBBCE7994FC6B4E0F7E05BA3388 /* Pods-QLMJRefreshAutoImageFooterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLMJRefreshAutoImageFooterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E1B934D2C584E6EBDA8CDCAA718109 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		952C572CF0619795C3402ECDF1B0B218 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
 		975F039FC9BA5432BD330E7C9815826B /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		9CCE65DFA4E82CFF57B3FA4AB3DC0E69 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
 		9E3A38C45130532936E93485B13547FF /* Pods-QLMJRefreshAutoImageFooterDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLMJRefreshAutoImageFooterDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A143B89D654AEE6CD927375898053B57 /* Pods-QLMJRefreshAutoImageFooterDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLMJRefreshAutoImageFooterDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		A39068BD969FA011A9CF8C3A46448A87 /* libPods-QLMJRefreshAutoImageFooterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLMJRefreshAutoImageFooterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39068BD969FA011A9CF8C3A46448A87 /* libPods-QLMJRefreshAutoImageFooterDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QLMJRefreshAutoImageFooterDemoUITests.a"; path = "libPods-QLMJRefreshAutoImageFooterDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F2C8ECE16553DDF8039BF00C8D379B /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
 		AEA577F98D15B96ADF7382D027A15FD3 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
 		AFFBAF51D6AA725FC6019F359A47DEFC /* Pods-QLMJRefreshAutoImageFooterDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLMJRefreshAutoImageFooterDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		B3B2D5590A0ED04F7D63637C50A84EBE /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
 		B94AA717AD62845BA2D7D358B7EEFCF4 /* Pods-QLMJRefreshAutoImageFooterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLMJRefreshAutoImageFooterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B9741E45793BC773A2E19ECA89F8B849 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
-		BAB3BBE7D57181ABA02968AD9A32E4DC /* libPods-QLMJRefreshAutoImageFooterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLMJRefreshAutoImageFooterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB3BBE7D57181ABA02968AD9A32E4DC /* libPods-QLMJRefreshAutoImageFooterDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-QLMJRefreshAutoImageFooterDemoTests.a"; path = "libPods-QLMJRefreshAutoImageFooterDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C076F454D51707277316162E7D28733F /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
 		C2967E2BC001EFEE2881AC2F3227CCFB /* Pods-QLMJRefreshAutoImageFooterDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLMJRefreshAutoImageFooterDemoUITests-resources.sh"; sourceTree = "<group>"; };
 		C39801887FE27327BFE271449E1B1057 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
@@ -272,6 +272,7 @@
 				D992DB585207F032991632D0F23F7507 /* Resources */,
 				ABDC4B4BC41E79423448F42F99332808 /* Support Files */,
 			);
+			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -454,15 +455,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = 2D844ADD9278DF14BF45D766DE0AC7BA /* Products */;
@@ -579,7 +579,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -712,7 +711,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -758,7 +757,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -798,7 +797,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
