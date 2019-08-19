@@ -68,23 +68,26 @@
         
         if (self.noDataImageView.constraints.count) return;
         
-        self.scrollView.mj_insetB -= self.mj_h;
+        
         /* 根据图片设置控件的高度 */
         if (self.noDataImage.size.height > self.mj_h) {
+            self.scrollView.mj_insetB -= self.mj_h;
             self.mj_h = self.noDataImage.size.height;
+            self.scrollView.mj_insetB += self.mj_h;
         }
         //设置scrollView.mj_insetB来设置底部刷新View的展示
-        self.scrollView.mj_insetB += self.mj_h;
-        
         self.noDataImageView.frame = self.bounds;
         
     }else{
         if (self.loadingView.constraints.count) return;
         
         //修改底部刷新view的高度，同步修改scrollView.mj_insetB
-        self.scrollView.mj_insetB -= self.mj_h;
-        self.mj_h = MJRefreshFooterHeight;
-        self.scrollView.mj_insetB += self.mj_h;
+        
+        if (self.mj_h != MJRefreshFooterHeight) {
+            self.scrollView.mj_insetB -= self.mj_h;
+            self.mj_h = MJRefreshFooterHeight;
+            self.scrollView.mj_insetB += self.mj_h;
+        }
         
         self.stateLabel.frame = self.bounds;
         
